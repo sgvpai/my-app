@@ -5,7 +5,7 @@
   "homepage": "https://github.com/sgvpai/my-app/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "dev": "vite",
     "build": "tsc && vite build",
